@@ -1,0 +1,122 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .links  {
+  
+  }
+  .nav{
+      display: inline-block;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(29, 29, 29);
+    height: 10vh;
+  }
+  nav li {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+  }
+  nav a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  nav .links{
+      float: right;
+  }
+  nav .links li{
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+  }
+  nav .links li:hover{
+      background-color: wheat;
+      color: black;
+      transition: 0.6s;
+      cursor: pointer;
+  }
+  nav input{
+    display: inline-block;
+    width: 250px;
+    margin-left: 3PX;
+  }
+  body{
+    margin:0;
+    color:whitesmoke;
+  }
+  .content{
+              width:100vw;
+              height:90vh;
+              background-color: rgb(29, 29, 29);
+  
+          }
+          .parent{
+              display: flex;
+          }
+          .conta{
+              display: flex;
+              margin: 50px;
+          }
+          
+          .child video{
+              width:300px;
+              height:200px;
+              margin:10px;
+              display: flex;
+              justify-content:center;
+              align-items: center;
+              color:white;
+          }
+          .title{
+            margin-left: 10px;
+          }
+          .hover:hover{
+            background-color: wheat;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+          }
